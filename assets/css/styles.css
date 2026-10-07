@@ -956,7 +956,8 @@ p { margin: 0; }
   border-radius: var(--radius-lg);
   background: linear-gradient(180deg, var(--surface), #0c0a13);
 }
-.install__title { font-size: clamp(1.6rem, 3.2vw, 2.3rem); }
+.install__title { font-size: clamp(1.7rem, 3.6vw, 2.6rem); }
+.install__free { color: var(--brand-300); }
 .install__body { display: flex; flex-direction: column; gap: 14px; }
 .install__price {
   display: flex;
@@ -969,10 +970,11 @@ p { margin: 0; }
 .install__amount { font-size: 3.6rem; font-weight: 800; letter-spacing: -0.04em; line-height: 1; }
 .install__cents { font-size: 1.5rem; font-weight: 700; align-self: flex-start; margin-top: 10px; }
 
-.install__highlight {
-  font-size: 1.08rem;
-  font-weight: 600;
-  color: var(--brand-200);
+.install__fee {
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.55;
+  max-width: 46ch;
 }
 .install__note {
   display: inline-flex;
